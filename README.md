@@ -2,7 +2,7 @@
 
 <img src="assets/banner.svg" width="100%" alt="MyMask AI — Live face transformation with no noticeable delay."/>
 
-<br/><br/>
+<br/>
 
 <img src="assets/icon.png" width="96" alt="MyMask AI icon"/>
 
