@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="assets/banner.svg" width="100%" alt="MyMask AI — Live face transformation with no noticeable delay."/>
+<img src="assets/banner.svg" width="100%" alt="MyMask AI — Your real face never reaches the frame."/>
 
 <br/>
 
@@ -8,18 +8,18 @@
 
 # MyMask AI
 
-### Live face transformation with no noticeable delay.
+### Your real face never reaches the frame.
 
 <img src="https://img.shields.io/badge/Category-AI-c9a855?style=for-the-badge&labelColor=0d0d0d" alt="Category: AI"/>
 <img src="https://img.shields.io/badge/Status-Live-ffffff?style=for-the-badge&labelColor=0d0d0d" alt="Status: Live"/>
-<a href="https://mymask.pro/"><img src="https://img.shields.io/badge/Website-mymask.pro-1a1a1a?style=for-the-badge&labelColor=0d0d0d&logo=googlechrome&logoColor=white" alt="Website"/></a>
-<a href="https://t.me/mymask_ai"><img src="https://img.shields.io/badge/Telegram-%40mymask__ai-1a1a1a?style=for-the-badge&labelColor=0d0d0d&logo=telegram&logoColor=white" alt="Telegram"/></a>
+<a href="https://mymask.ai/"><img src="https://img.shields.io/badge/Website-mymask.ai-1a1a1a?style=for-the-badge&labelColor=0d0d0d&logo=googlechrome&logoColor=white" alt="Website"/></a>
+<a href="https://t.me/mymask_pro"><img src="https://img.shields.io/badge/Telegram-%40mymask__pro-1a1a1a?style=for-the-badge&labelColor=0d0d0d&logo=telegram&logoColor=white" alt="Telegram"/></a>
 
 <a href="https://drogoz.network"><img src="https://img.shields.io/badge/Part%20of-Drogoz%20Network-c9a855?style=for-the-badge&labelColor=000000" alt="Part of Drogoz Network"/></a>
 
 <br/>
 
-<a href="https://mymask.pro/"><img src="https://img.shields.io/badge/%F0%9F%8C%90%20%20Website-ffffff?style=for-the-badge" alt="Website"/></a> <a href="https://drogoz.network/services/MyMask/"><img src="https://img.shields.io/badge/%F0%9F%93%84%20%20Details%20on%20drogoz.network-1a1a1a?style=for-the-badge" alt="Details"/></a> <a href="https://t.me/drogoz"><img src="https://img.shields.io/badge/%F0%9F%8E%A5%20%20Free%20live%20demonstration-c9a855?style=for-the-badge" alt="Demo"/></a>
+<a href="https://mymask.ai/"><img src="https://img.shields.io/badge/%F0%9F%8C%90%20%20Website-ffffff?style=for-the-badge" alt="Website"/></a> <a href="https://drogoz.network/services/MyMask/"><img src="https://img.shields.io/badge/%F0%9F%93%84%20%20Details%20on%20drogoz.network-1a1a1a?style=for-the-badge" alt="Details"/></a> <a href="https://t.me/drogoz"><img src="https://img.shields.io/badge/%F0%9F%8E%A5%20%20Free%20live%20demonstration-c9a855?style=for-the-badge" alt="Demo"/></a>
 
 </div>
 
@@ -42,18 +42,20 @@
 
 ## 🧭 Overview
 
-MyMask AI (MYMASK PRO) is a real-time face transformation system: your real face never reaches the frame. Built on custom AI models with full CUDA acceleration, it delivers live face swapping during video calls and recordings without noticeable delay, while maintaining natural expressions and movements.
+**MyMask AI is a professional, local identity-protection engine for live video.** It intercepts the camera feed on the device, maps and aligns the face, transforms it through a custom neural model, harmonises lighting and motion, sanitises the output and exposes the result as a virtual camera for conferencing, recording and streaming applications.
 
-The platform is engineered for anonymity. Proprietary algorithms combine advanced neural networks, CUDA acceleration and cryptographic transformations so that transformed faces cannot be reverse-engineered or analysed to reveal the original identity. All processing is done locally on your device, with no data transmitted to external servers.
+The current **MyMask AI Desktop 3.1** is built for Windows 10/11 and NVIDIA CUDA. The site describes a multi-stream GPU pipeline targeting sub-frame latency and 60+ FPS, plus an anti-freezer scheduler intended to keep long sessions stable under load. The output can be selected as a camera in Zoom, Google Meet, Microsoft Teams, Skype, OBS, Streamlabs, browsers and recording tools.
 
-MYMASK PRO is office-ready and trusted by numerous offices worldwide for secure video communications. It ships as a Windows 10/11 desktop application (version 3.1), and the Elite package lets you upload your own images and train a personalised AI model in seconds.
+**Processing stays on the user's machine:** the public product specification states that raw frames are not uploaded, telemetry is not collected and no third-party processing server sits in the video pipeline. The product also describes a one-way transformation matrix and an output-sanitisation layer. These are product security claims; users should assess suitability for their own threat model and use the software only with the knowledge and consent required by law.
+
+Licensing is now self-service. The live calculator starts at **$3,499 per month for one computer**, applies duration and volume discounts in real time, and supports renewals for 1, 3, 6 or 12 months. Crypto top-ups are auto-credited after confirmation through a signed checkout.
 
 <table>
 <tr>
 <td align="center" width="25%"><b>Category</b><br/><sub>AI</sub></td>
 <td align="center" width="25%"><b>Status</b><br/><sub>Live</sub></td>
 <td align="center" width="25%"><b>Bundle</b><br/><sub>Utilities (−2%)</sub></td>
-<td align="center" width="25%"><b>Pricing</b><br/><sub>Sign in to see pricing</sub></td>
+<td align="center" width="25%"><b>Pricing</b><br/><sub>$3,499 / month</sub></td>
 </tr>
 </table>
 
@@ -61,63 +63,78 @@ MYMASK PRO is office-ready and trusted by numerous offices worldwide for secure 
 
 ## ✨ Key features
 
-### ⚡ Performance
+### 🧠 Local real-time engine
 
-- **Real-Time Face Swapping** — live face transformation with no noticeable delay.
-- **CUDA Acceleration** — maximum GPU performance for fast processing.
-- **Low Latency** — fast and responsive performance during live calls.
-- **Built for Scale** — designed for high-volume operations.
+- **Six-stage pipeline** — Capture → Detect & Align → Transform → Blend → Sanitize → Output.
+- **NVIDIA CUDA, multi-stream processing** — GPU-parallel execution tuned for real-time video rather than static photos.
+- **Sub-frame target and 60+ FPS positioning** — designed to preserve natural expression and motion with no noticeable delay.
+- **Virtual-camera output** — use MyMask AI in conferencing, streaming, browser WebRTC and recording workflows.
 
-### 🧬 AI quality
+### 🧬 Identity models & output
 
-- **Advanced AI Models** — realistic and accurate face generation from custom-developed neural networks.
-- **High Quality Output** — natural appearance and smooth movements.
-- **Custom AI models (Elite package)** — upload your own photos; the training pipeline processes them in seconds and delivers a model ready for instant use.
+- **Custom-developed neural models** — photorealistic output with lighting, skin tone and motion blending.
+- **Built-in identity library** — select a prepared model and go live.
+- **Custom AI models (Elite)** — generate a personalised identity from your own permitted source images.
+- **Output sanitisation** — the product's anti-detection layer is designed to reduce synthetic artefacts in the virtual-camera stream.
 
-### 🔒 Anonymity & security
+### 🔒 Privacy & session stability
 
-- **Irreversible Technology** — transformations cannot be reverse-engineered; zero possibility of identity reconstruction.
-- **Complete Anonymity** — no traces of your real identity, unlike traditional face changers.
-- **Local processing** — everything runs on your device; no data is transmitted to external servers.
-- **Anti-Detection Matrix** — adaptive algorithms that learn from detection patterns and continuously evolve.
+- **100% local processing architecture** — no cloud frame uploads, third-party video processor or telemetry in the documented pipeline.
+- **One-way transformation design** — the site states that the source identity is not embedded or cached in the transformed output.
+- **Anti-freezer scheduler** — dedicated CUDA streams and a controlled frame budget for sustained calls and multitasking.
+- **Code-signed desktop release and automatic updates** — version 3.1 is delivered through the authenticated account.
 
-### 🏢 Deployment
+### 💳 Licensing, payment & support
 
-- **Office Ready** — optimized for professional use and high-stakes business environments.
-- **Multi-Platform Support** — works with major communication tools.
-- **Windows desktop app** — MYMASK PRO Desktop v3.1 for Windows 10/11 with quick setup and auto updates.
-- **System requirements** — Windows 10/11 (64-bit), NVIDIA GPU (CUDA 11.0+), 8 GB RAM (16 GB recommended), 500 GB free disk space, DirectX 12, internet connection.
+- **Interactive licence calculator** — configure computers and duration; volume and term discounts are applied live.
+- **Standard licence** — $3,499/month for one computer before calculator discounts.
+- **Automatic crypto balance credit** — USDT (TRC20/BEP20/ERC20), USDC (ERC20/Solana), BTC, ETH, BNB, SOL and TRX.
+- **Renew at any time** — add 1, 3, 6 or 12 months without losing remaining time.
+- **Dedicated support and demo** — setup and tuning assistance through MyMask/Drogoz support.
+
+### 🖥️ Desktop requirements & compatibility
+
+- **Windows 10/11 (64-bit)** · **NVIDIA GPU with CUDA 11.0+** · **DirectX 12**.
+- **8 GB RAM minimum, 16 GB recommended** · approximately **500 GB free storage** · internet connection.
+- **Video:** Zoom · Google Meet · Microsoft Teams · Skype · standard webcam applications.
+- **Streaming:** OBS Studio · Streamlabs · YouTube Live · Twitch · custom RTMP pipelines.
+- **Browser & recording:** Chrome · Edge · Firefox WebRTC · local camera/screen recording.
 
 <img src="assets/divider.svg" width="100%" height="4" alt=""/>
 
-## 🔬 The science behind MYMASK PRO
+## 📊 Current product status
 
-| Layer | What it does |
+| Area | Current state |
 |---|---|
-| **Neural Network Transformation** | Advanced Generative Adversarial Network with custom loss functions ensuring pixel-perfect transformation while maintaining facial expressions. |
-| **Cryptographic Irreversibility** | Irreversible hash transformations combined with one-way encryption ensuring zero possibility of identity reconstruction. |
-| **CUDA Optimization** | Parallel GPU processing with optimized memory allocation achieving real-time transformation at 4K resolution. |
-| **Anti-Detection Matrix** | Adaptive algorithms that learn from detection patterns and continuously evolve to stay undetectable. |
-
-<img src="assets/divider.svg" width="100%" height="4" alt=""/>
-
-## 📰 Latest update — *MYMASK AI — Major Update* (13 Aug 2026)
-
-> After a long wait, we've officially unlocked a major set of new capabilities — see the full changelog in the client panel at drogoz.network.
+| **Desktop engine** | Version 3.1 · Windows 10/11 · code-signed · automatic updates |
+| **Core pipeline** | CUDA engine, one-way transformation design, output sanitisation and anti-freezer scheduling — shipped |
+| **Custom identities** | Elite model training — shipped |
+| **RTX 5000 series** | Native kernels and tuning — in progress |
+| **Cross-platform / mobile bridge** | Planned |
+| **Published performance positioning** | <1-frame target · 60+ FPS · multiple CUDA streams · 99.9% session uptime |
 
 <img src="assets/divider.svg" width="100%" height="4" alt=""/>
 
 ## 🖼️ Screenshots
 
-> Product images from [mymask.pro](https://mymask.pro/) and the [service page](https://drogoz.network/services/MyMask/) on drogoz.network.
+> Product images from [mymask.ai](https://mymask.ai/) and the [service page](https://drogoz.network/services/MyMask/) on drogoz.network.
 
 <table>
 <tr>
-<td width="50%" align="center"><img src="assets/mymask-site-0.jpg" alt="MYMASK PRO — landing page"/><br/><sub>MYMASK PRO — landing page</sub></td>
-<td width="50%" align="center"><img src="assets/mymask-site-1.jpg" alt="MYMASK PRO — live metrics"/><br/><sub>MYMASK PRO — live metrics</sub></td>
+<td width="50%" align="center"><img src="assets/mymask-hero.png" alt="mymask.ai — local real-time identity protection and CUDA processing architecture"/><br/><sub>mymask.ai — local real-time identity protection and CUDA processing architecture</sub></td>
+<td width="50%" align="center"><img src="assets/mymask-features.png" alt="Current feature set — local processing, CUDA acceleration, real-time output and identity models"/><br/><sub>Current feature set — local processing, CUDA acceleration, real-time output and identity models</sub></td>
 </tr>
 <tr>
-<td colspan="2" align="center"><img src="assets/mymask-site-2.jpg" alt="MYMASK PRO — features"/><br/><sub>MYMASK PRO — features</sub></td>
+<td width="50%" align="center"><img src="assets/mymask-how.png" alt="Install, select a permitted model and start transforming in three steps"/><br/><sub>Install, select a permitted model and start transforming in three steps</sub></td>
+<td width="50%" align="center"><img src="assets/mymask-download.png" alt="MyMask AI Desktop 3.1 — Windows 10/11, code-signed, CUDA-ready and auto-updating"/><br/><sub>MyMask AI Desktop 3.1 — Windows 10/11, code-signed, CUDA-ready and auto-updating</sub></td>
+</tr>
+<tr>
+<td width="50%" align="center"><img src="assets/mymask-engine.png" alt="The documented six-stage on-device pipeline and defensive stack"/><br/><sub>The documented six-stage on-device pipeline and defensive stack</sub></td>
+<td width="50%" align="center"><img src="assets/mymask-workflows.png" alt="Roadmap, getting started, compatible workflows and performance targets"/><br/><sub>Roadmap, getting started, compatible workflows and performance targets</sub></td>
+</tr>
+<tr>
+<td width="50%" align="center"><img src="assets/mymask-pricing.png" alt="Interactive licence calculator — computers, duration and promo-code support"/><br/><sub>Interactive licence calculator — computers, duration and promo-code support</sub></td>
+<td width="50%" align="center"><img src="assets/mymask-payments.png" alt="Automatic crypto top-ups across stablecoins and native networks"/><br/><sub>Automatic crypto top-ups across stablecoins and native networks</sub></td>
 </tr>
 </table>
 
@@ -125,18 +142,19 @@ MYMASK PRO is office-ready and trusted by numerous offices worldwide for secure 
 
 ## ⚙️ How it works
 
-**From install to live in three steps**
+**From camera input to a local virtual-camera output**
 
 ```mermaid
 %%{init: {'theme': 'dark', 'themeVariables': { 'primaryColor': '#1a1a1a', 'primaryTextColor': '#ffffff', 'primaryBorderColor': '#c9a855', 'lineColor': '#c9a855', 'secondaryColor': '#0d0d0d', 'tertiaryColor': '#0d0d0d', 'clusterBkg': '#0d0d0d', 'clusterBorder': '#404040', 'edgeLabelBackground': '#0d0d0d', 'fontFamily': 'Inter, Segoe UI, sans-serif' } } }%%
 flowchart LR
-    A["1 · Install & Setup<br/>Download MYMASK PRO, CUDA is configured automatically"] --> B["2 · Choose Your Model<br/>Pick a crafted AI model or train your own (Elite)"]
-    B --> C["3 · Go Live<br/>Real-time transformation in your video call"]
-    subgraph Engine["Local processing — nothing leaves your device"]
-        direction LR
-        N["Neural Network<br/>Transformation (GAN)"] --> K["Cryptographic<br/>Irreversibility"] --> G["CUDA<br/>Optimization"] --> D["Anti-Detection<br/>Matrix"]
-    end
-    C -.-> Engine
+    A["1 · Install & activate<br/>MyMask AI Desktop 3.1"] --> B["2 · Select identity<br/>built-in model or permitted custom model"]
+    B --> C["3 · Capture locally<br/>raw camera frame stays on device"]
+    C --> D["4 · Detect & align<br/>facial landmarks"]
+    D --> E["5 · Transform & blend<br/>CUDA neural pipeline"]
+    E --> F["6 · Sanitize output<br/>reduce synthetic artefacts"]
+    F --> G["Virtual camera<br/>calls · browsers · OBS · recording"]
+    H["Anti-freezer scheduler<br/>multi-stream frame budget"] -.-> E
+    I["No cloud frame upload<br/>no video telemetry"] -.-> C
 ```
 
 <img src="assets/divider.svg" width="100%" height="4" alt=""/>
@@ -145,12 +163,16 @@ flowchart LR
 
 <table>
 <tr>
-<td width="50%" valign="top"><b>💼 Professionals on video calls</b><br/><sub>Maintain anonymity during video calls while keeping natural expressions and movement.</sub></td>
-<td width="50%" valign="top"><b>🎥 Content creators</b><br/><sub>Identity protection for live streams and recordings.</sub></td>
+<td width="50%" valign="top"><b>🏢 Corporate privacy</b><br/><sub>Protect authorised employee identities in internal and external meetings without changing the conferencing workflow.</sub></td>
+<td width="50%" valign="top"><b>🎥 Content creators</b><br/><sub>Publish or stream through a consistent virtual identity while keeping raw camera processing local.</sub></td>
 </tr>
 <tr>
-<td width="50%" valign="top"><b>🏢 Organisations</b><br/><sub>Secure video communications and protected employee identities in corporate environments.</sub></td>
-<td width="50%" valign="top"><b>📈 High-volume offices</b><br/><sub>Built for scale — optimized for professional, high-volume operations.</sub></td>
+<td width="50%" valign="top"><b>📰 Journalists & protected sources</b><br/><sub>Use consent-based identity masking for sensitive interviews where exposing a participant would create risk.</sub></td>
+<td width="50%" valign="top"><b>🌍 Remote work</b><br/><sub>Select MyMask AI as the camera in daily meetings across supported desktop and browser apps.</sub></td>
+</tr>
+<tr>
+<td width="50%" valign="top"><b>📺 Live streaming</b><br/><sub>Feed a consistent transformed camera into OBS, Streamlabs and RTMP production pipelines.</sub></td>
+<td width="50%" valign="top"><b>🛡️ High-security environments</b><br/><sub>Keep the raw camera pipeline on the workstation and evaluate the product against the organisation's own security policy.</sub></td>
 </tr>
 </table>
 
@@ -158,7 +180,7 @@ flowchart LR
 
 ## 💳 Pricing
 
-> **Sign in at [drogoz.network](https://drogoz.network/accounts/login/) to see pricing.** Billed per user · Min. 1 user.
+> **Standard licence: $3,499 per month for one computer.** Configure the number of computers and a 1, 6, 12 or 24-month term in the [live licence calculator](https://mymask.ai/#pricing); volume and duration discounts are applied there in real time. Balances can be topped up with supported cryptocurrency and are credited automatically after on-chain confirmation. Renewing adds time on top of the current expiry.
 
 MyMask AI is part of the **Utilities** bundle (−2%) — *Core utility tools* — and of **All In One** (−10%) — *Every product, best price*. Take several products together and save more: [Packages & bundles](https://drogoz.network/#packages) · [Pricing & calculator](https://drogoz.network/pricing/).
 
@@ -188,9 +210,9 @@ See MyMask AI in action before you pay — our agent gets in touch and walks you
 
 | Channel | Link |
 |---|---|
-| 🌐 **Website** | [mymask.pro](https://mymask.pro/) |
+| 🌐 **Website** | [mymask.ai](https://mymask.ai/) |
 | 📄 **Details page** | [drogoz.network/services/MyMask/](https://drogoz.network/services/MyMask/) |
-| ✈️ **Telegram group** | [@mymask_ai](https://t.me/mymask_ai) |
+| ✈️ **Telegram group** | [@mymask_pro](https://t.me/mymask_pro) |
 | 🏛️ **Drogoz Network** | [drogoz.network](https://drogoz.network) · [Services](https://drogoz.network/#services) · [Packages](https://drogoz.network/#packages) · [Pricing](https://drogoz.network/pricing/) · [Presentation](https://drogoz.network/presentation/) |
 | ⚖️ **Legal** | [Terms of Service](https://drogoz.network/legal/terms-of-service/) · [Acceptable Use](https://drogoz.network/legal/acceptable-use-policy/) · [Privacy](https://drogoz.network/legal/privacy-policy/) · [Refunds](https://drogoz.network/legal/refund-policy/) · [Disclaimer](https://drogoz.network/legal/disclaimer/) · [Compliance](https://drogoz.network/legal/compliance-policy/) |
 | 🐙 **GitHub** | [deepdrogo](https://github.com/deepdrogo/deepdrogo) |
@@ -211,7 +233,7 @@ See MyMask AI in action before you pay — our agent gets in touch and walks you
   <a href="https://t.me/drogoz"><img src="https://img.shields.io/badge/%40drogoz-1a1a1a?style=flat-square&logo=telegram&logoColor=white" alt="Telegram"/></a>
   <a href="mailto:hello@drogoz.network"><img src="https://img.shields.io/badge/hello%40drogoz.network-1a1a1a?style=flat-square&logo=gmail&logoColor=white" alt="Email"/></a>
   <br/><br/>
-  <sub><b>More from the network:</b> <a href="https://github.com/deepdrogo/drog-ai">Drog AI</a> · <a href="https://github.com/deepdrogo/replika">Replika</a> · <a href="https://github.com/deepdrogo/lidaro-ai">Lidaro AI</a> · <a href="https://github.com/deepdrogo/imperatori">IMPERATORI</a> · <a href="https://github.com/deepdrogo/zoi-talks">ZOI Talks</a> · <a href="https://github.com/deepdrogo/riderswap-io">RiderSwap</a> · <a href="https://github.com/deepdrogo/hyperblast-ai">HyperBlast AI</a> · <a href="https://github.com/deepdrogo/verifhub-ai">VerifHub AI</a> · <a href="https://github.com/deepdrogo/vadira-net">Vadira</a> · <a href="https://github.com/deepdrogo/skriper-io">Skriper</a> · <a href="https://github.com/deepdrogo/mytasker">MyTasker</a> · <a href="https://github.com/deepdrogo/mamont-tech">Mamont</a> · <a href="https://github.com/deepdrogo/drogscan">DrogScan</a></sub>
+  <sub><b>More from the network:</b> <a href="https://github.com/deepdrogo/drog-ai">Drog AI</a> · <a href="https://github.com/deepdrogo/replika">Replika</a> · <a href="https://github.com/deepdrogo/lidaro-ai">Lidaro AI</a> · <a href="https://github.com/deepdrogo/imperatori">IMPERATORI</a> · <a href="https://github.com/deepdrogo/zoi-talks">ZOI Talks</a> · <a href="https://github.com/deepdrogo/riderswap-io">RiderSwap</a> · <a href="https://github.com/deepdrogo/hyperblast-ai">HyperBlast AI</a> · <a href="https://github.com/deepdrogo/verifhub-ai">VerifHub AI</a> · <a href="https://github.com/deepdrogo/vadira-net">Vadira</a> · <a href="https://github.com/deepdrogo/skriper-io">Skriper</a> · <a href="https://github.com/deepdrogo/drogopay-com">DrogoPay</a> · <a href="https://github.com/deepdrogo/hashgram">Hashgram One</a> · <a href="https://github.com/deepdrogo/mytasker">MyTasker</a> · <a href="https://github.com/deepdrogo/mamont-tech">Mamont</a> · <a href="https://github.com/deepdrogo/drogscan">DrogScan</a></sub>
   <br/><br/>
   <sub>© 2026 Drogoz Network. All rights reserved. Provided strictly for lawful use — see the <a href="https://drogoz.network/legal/">Legal Center</a>. Each user is solely responsible for how they use the software.</sub>
 </div>
